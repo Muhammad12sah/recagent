@@ -97,6 +97,8 @@ h1, h2, h3, h4, h5, h6, p {
     
 
 }
+
+
 .cta-button {
     width: 223px;
     height: 90px;
@@ -223,6 +225,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
 
 }
+
 
 .brand-rev {
     width: 537px;
@@ -422,7 +425,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* Block2 */
 
 .secondary-block {
-    min-height: 4000px;
+    min-height: 2500px;
  
     background: #000;
 }
@@ -1643,4 +1646,710 @@ span {
 
 
 
+/* ... предыдущие стили ... */
 
+@media (max-width: 1200px) {
+    .hero-section {
+      margin-left: 5%;
+      width: 90%;
+    }
+    
+    .headline {
+      width: 90%;
+      font-size: 42px;
+      margin-left: 5%;
+    }
+    
+    .brand-rev {
+      margin-left: 5%;
+      width: 90%;
+    }
+    
+    .stats-details {
+      margin-left: 5%;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .footofpage {
+      width: 90%;
+      height: auto;
+      padding: 40px 0;
+    }
+    
+    .agencybl,
+    .information,
+    .company {
+      margin: 30px 5%;
+      width: 90%;
+    }
+    
+    .footzel {
+      flex-wrap: wrap;
+      height: auto;
+      padding: 20px 0;
+    }
+    
+    .fashion,
+    .termasprivacy {
+      margin: 15px auto;
+      text-align: center;
+    }
+    
+    .socmedia {
+      justify-content: center;
+      margin: 20px 0;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .main-header {
+      padding-top: 40px;
+      min-height: auto;
+      padding-bottom: 60px;
+    }
+    
+    .header-content {
+      flex-direction: column;
+    }
+    
+    .nav-links {
+      margin-left: 5%;
+      width: 90%;
+      justify-content: space-between;
+    }
+    
+    .hero-section {
+      height: auto;
+      padding: 30px 0;
+      margin: 20px auto;
+    }
+    
+    .promo-text {
+      width: 90%;
+      margin: 40px auto;
+      text-align: center;
+    }
+    
+    .promo-main,
+    .promo-highlight,
+    .promo-sub {
+      font-size: 48px;
+      letter-spacing: -1px;
+      line-height: 1.2;
+    }
+    
+    .cta-button {
+      position: relative;
+      margin: 30px auto;
+      right: auto;
+      bottom: auto;
+    }
+    
+    .content-section {
+      flex-direction: column;
+      height: auto;
+      padding: 60px 0;
+    }
+    
+    .brand-image {
+      width: 90%;
+      margin: 20px auto;
+    }
+    
+    .stats-details {
+      margin: 40px auto;
+    }
+    
+    .ideas-section {
+      margin: 60px auto;
+      width: 90%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .getplan,
+    .getplan3 {
+      width: 180px;
+      height: 50px;
+      margin-left: 20px;
+    }
+    
+    .tr,
+    .tr2 {
+      font-size: 16px;
+      margin: 12px 20px;
+    }
+    
+    .fottt {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .lin {
+      width: 90%;
+      margin-top: 60px;
+    }
+    
+    .abs,
+    .information,
+    .company {
+      margin: 30px 0;
+      text-align: center;
+    }
+    
+    .webs {
+      font-size: 32px;
+    }
+    
+    .enchance {
+      width: 90%;
+      font-size: 16px;
+    }
+    
+    .footzel {
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .termasprivacy {
+      justify-content: center;
+      margin: 15px 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navigation-section ul {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    
+    .navigation-section li {
+      margin-right: 25px;
+    }
+    
+    .headline {
+      font-size: 36px;
+      padding-top: 30px;
+    }
+    
+    .description {
+      width: 90%;
+      font-size: 16px;
+    }
+    
+    .stat-number {
+      font-size: 32px;
+    }
+    
+    .stat-title {
+      font-size: 18px;
+    }
+    
+    .brand-title {
+      font-size: 42px;
+      width: 100%;
+    }
+    
+    .brand-description {
+      width: 100%;
+      font-size: 16px;
+    }
+    
+    .feature-section {
+      flex-direction: column;
+      height: auto;
+      padding: 30px 0;
+      width: 90%;
+      margin: 40px auto;
+    }
+    
+    .feature-item {
+      margin: 30px auto;
+      width: 90%;
+    }
+    
+    .icon-row {
+      margin-left: 0;
+      justify-content: center;
+    }
+    
+    .idea-item,
+    .vision-item {
+      width: 90%;
+      margin-left: 5% !important;
+    }
+
+    .lin {
+        margin-top: 2000px;
+    }
+
+    .cards {
+        flex-direction: column;
+        margin-top: 550px;
+        width: 450px;
+    }
+
+    .card2 {
+        margin-left: 0;
+    }
+
+    .feature-section {
+        border: none;
+        margin: 0;
+        margin-left: 60px;
+        
+    }
+
+    .sales {
+        display: none;
+    }
+
+
+    .plan {
+       width: 300px;
+        height: 50px;
+        font-size: 50px;
+        margin-top: 600px;
+      
+    }
+
+    .footzel {
+        width: 765px;
+    }
+
+    .title-main {
+        font-size: 60px;
+        width: 400px;
+    }
+    
+    .title-secondary {
+        font-size: 60px;
+        width: 600px;
+    }
+
+    .title-tertiary {
+        font-size: 60px;
+        width: 600px;
+    }
+
+    .brand-highlight {
+        flex-direction: column;
+        width: 600px;
+        height: 500px;
+        margin-left: 60px;
+    }
+
+    .brand-image {
+        width: 35%;
+        margin: 0;
+    }
+
+    .highlight-section {
+        width: 700px;
+        height: 800px;
+        margin-left: 30px;
+    }
+
+    .feature-item {
+        margin-left: 0;
+    }
+    .feature-item2 {
+        margin-left: 0;
+    }
+
+    .feature-item3 {
+        margin-left: 0;
+    }
+
+    .brand-titles {
+        width: 450px;
+    }
+
+    .bl5 {
+        width: 450px;
+        margin-left: 90px;
+    }
+
+    .choose {
+        width: 450px;
+    }
+
+    .vision-item {
+        display: none;
+
+    }
+  }
+
+  @media (max-width: 768px) {
+    .getplan,
+    .getplan3 {
+      width: 160px;
+      height: 45px;
+      margin: 20px auto;
+    }
+    
+    .tr,
+    .tr2 {
+      font-size: 14px;
+      margin: 10px 15px;
+    }
+    
+    .webs {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+    
+    .enchance {
+      font-size: 14px;
+    }
+    
+    .abs li,
+    .information li,
+    .company li {
+      font-size: 16px;
+      margin-top: 15px;
+    }
+    
+    .linked,
+    .facbook,
+    .twit {
+      width: 40px;
+      height: 40px;
+      margin: 10px;
+    }
+    
+    .linked img,
+    .facbook img,
+    .twit img {
+      margin: 10px;
+      width: 20px;
+      height: 20px;
+    }
+    
+    .fashion {
+      font-size: 16px;
+      margin-left: 0;
+    }
+    
+    .ter,
+    .pri,
+    .cook {
+      font-size: 14px;
+      margin-right: 20px;
+    }
+
+    .cta-button {
+        display: none;
+    }
+
+    #submitButton1 {
+        width: 150px;
+        font-size: 13px;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+    .lin {
+        width: 100%;
+    }
+    
+    #submitButton2 {
+        width: 150px;
+        font-size: 13px;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+
+    #submitButton3 {
+        width: 150px;
+        font-size: 13px;
+        margin-top: 15px;
+        margin-left: 25px;
+    }
+    
+  }
+  
+  @media (max-width: 480px) {
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .navigation-section li {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+    
+    .headline {
+      font-size: 28px;
+    }
+    
+    .stat-number {
+      font-size: 24px;
+    }
+    
+    .cta-button {
+      width: 180px;
+      height: 70px;
+    }
+    
+    .promo-main,
+    .promo-highlight,
+    .promo-sub {
+      font-size: 36px;
+    }
+    
+    .title-main,
+    .title-secondary,
+    .title-tertiary {
+      font-size: 48px;
+    }
+    
+    .stat-value {
+      font-size: 24px;
+    }
+    
+    .stat-label {
+      font-size: 18px;
+    }
+    
+    .icon1, .icon2, .icon3, .icon4, .icon-additional {
+      width: 50px;
+      height: 50px;
+    }
+
+    .footzel {
+        width: 430px;
+    }
+    
+    .icon-additional img {
+      width: 30px;
+      height: 30px;
+      margin: 10px;
+    }
+
+    .cta-button {
+        display: none;
+    }
+
+    .description {
+        margin-left: 20px;
+    }
+
+    .stat-number {
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+
+    .promo-text {
+        margin-top: 200px;
+    }
+
+    .stats-details {
+        width: 200px;
+    }
+
+    .idea-item {
+        margin-top: 200px;
+        width: 300px;
+    }
+
+    .idea-text {
+        font-size: 18px;
+    }
+
+    .stats-details {
+        margin-left: 40px;
+    }
+
+    .title-main {
+        width: 200px;
+    }
+
+    .title-secondary {
+        width: 250px;
+    }
+
+    .title-tertiary {
+        width: 300px;
+    }
+
+    .brand-highlight {
+        width: 330px;
+    }
+
+    .brand-titles {
+        width: 345px;
+    }
+
+    .highlight-section {
+        width: 330px;
+    }
+
+    .bl5 {
+        width: 330px;
+    }
+
+    .feature-description {
+        width: 330px;
+    }
+
+    .feature-item2 {
+        width: 330px;
+    }
+
+    .choose {
+        width: 330px;
+    }
+
+    .card1 {
+        width: 330px;
+
+    }
+
+    .card2 {
+        width: 330px;
+
+    }
+
+    .card3 {
+        width: 330px;
+
+    }
+
+    .stratg4 {
+        width: 100px;
+    }
+
+    .getplan {
+        margin-top: 70px;
+    }
+
+    
+
+    #submitButton1 {
+        width: 150px;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    
+    #submitButton2 {
+        width: 150px;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+    .bl5 {
+        margin-left: 50px;
+    }
+
+    .lin {
+        width: 100%;
+    }
+
+
+    .webs {
+        width: 300px;
+    }
+    
+    #submitButton3 {
+        width: 150px;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .stratg33 {
+        width: 200px;
+    }
+
+    .stratg43 {
+        width: 200px;
+    }
+
+    .opis {
+        width: 200px;
+    }
+
+    .opis2 {
+        width: 200px;
+    }
+
+    .cards {
+        width: 330px;
+    }
+
+}
+
+
+
+  @media (max-width: 480px) {
+    .getplan,
+    .getplan3 {
+      width: 140px;
+      height: 40px;
+    }
+    
+    .tr,
+    .tr2 {
+      font-size: 12px;
+      margin: 8px 10px;
+    }
+    
+    .webs {
+      font-size: 24px;
+    }
+    
+    .enchance {
+      font-size: 12px;
+    }
+    
+    .abs li,
+    .information li,
+    .company li {
+      font-size: 14px;
+    }
+    
+    .termasprivacy {
+      flex-direction: column;
+    }
+    
+    .ter,
+    .pri,
+    .cook {
+      margin: 5px 0;
+    }
+    
+    .linked,
+    .facbook,
+    .twit {
+      width: 35px;
+      height: 35px;
+    }
+    
+    .linked img,
+    .facbook img,
+    .twit img {
+      margin: 8px;
+      width: 18px;
+      height: 18px;
+    }
+  }
+  
+  /* Адаптация hover-эффектов для тач-устройств */
+  @media (hover: hover) and (pointer: fine) {
+    .getplan:hover,
+    .getplan3:hover,
+    .linked:hover,
+    .facbook:hover,
+    .twit:hover {
+      /* Сохраняем hover-эффекты только для устройств с поддержкой hover */
+      transform: scale(1.1);
+      transition: transform 0.3s ease;
+    }
+  }

@@ -133,136 +133,8 @@
    
 
 
-        <div class="section-three">
-            <div class="subsection-three">
-        
-                <div class="image-container">
-                    <div class="image-placeholder"></div>
-        
-                    <div class="transformation">
-                        <div class="transformation-header">
-                            <div class="brand-transformation">Transforming Brands</div>
-                            <div class="industry-transformation">into Industry</div>
-                        </div>
-        
-                        <div class="transformation-description">Whether you're looking to enhance your brand identity, increase engagement, or drive sales, our tailored solutions are designed to meet your unique needs. Partner with us to transform your vision into a compelling narrative that stands out in today’s competitive market.</div>
-        
-                        <div class="future-vision1">
-                            <div class="future-ideas">
-                                <div class="future-idea-one"><div class="future-text">Turning Ideas into Impactful</div></div>
-                                <div class="future-idea-two"><div class="future-title">Future of Advertising</div></div>
-                            </div>
-        
-                            <div class="brand-evolution">
-                                <div class="brand-step-one"><div class="step-text">Your Brand Takes</div></div>
-                                <div class="brand-step-two"><div class="step-text-two">Your Brand Takes</div></div>
-                                <div class="brand-step-three"><div class="step-text-three">Your Brand Takes</div></div>
-                            </div>
-                        </div>
-        
-                        <div class="innovation">
-                            <div class="innovation-step-one">
-                                <div class="innovation-icon"><img src="assets/award_star.svg" alt=""></div>
-                                <div class="innovation-text">Potential with Innovative</div>
-                            </div>
-        
-                            <div class="innovation-step-two">
-                                <div class="innovation-icon"><img src="assets/auto_awesome_mosaic.svg" alt=""></div>
-                                <div class="innovation-text">Brands Through Creative</div>
-                            </div>
-                        </div>
-        
-                        <div class="innovation-description">With a blend of creativity, data-driven insights, and industry expertise, we develop campaigns that resonate with your audience</div>
-                    </div>
-        
-                </div>
-        
-            </div>
-        </div>
         
 
-
-    <div class="block4">
-        <div class="bl4">
-            <div class="youcenteer">
-                <div class="you">Where Your Brand Takes <span class="sppp">Center  Stage!</span></div>
-                <div class="looking">Whether you're looking to enhance your brand identity, increase engagement, or drive sales, our tailored solutions are designed to meet your unique needs. Partner with us to transform your vision into a compelling</div>
-            </div>
-
-
-            <div class="blockis4">
-                
-              <div class="cv1cv2">
-                <div class="cv1">
-                    <div class="cv">
-                        <div class="doc">
-                            <div class="iccc"><img src="assets/bookmark_manager.svg" alt=""></div>
-                            <div class="dig">
-                                <div class="solutions">Innovative Solutions for a Digital Era</div>
-                                <div class="blend3">With a blend of creativity, data-driven insights, and industry expertise, we develop campaigns that resonate</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                    
-
-                    
-                <div class="cv2">
-                    <div class="cv">
-                        <div class="doc">
-                            <div class="iccc2"><img src="assets/cloud_done.svg" alt=""></div>
-                            <div class="dig">
-                                <div class="solutions2">Where Creativity Meets Strategy</div>
-                                <div class="blend2">With a blend of creativity, data-driven insights, and industry expertise, we develop campaigns that resonate</div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-
-
-
-                
-
-            
-                
-                <div class="cv3cv4">
-                <div class="cv3">
-                    <div class="cv">
-                        <div class="doc">
-                            <div class="iccc3"><img src="assets/browse.svg" alt=""></div>
-                            <div class="dig">
-                                <div class="solutions">Transforming Ideas into Digital</div>
-                                <div class="blend3">With a blend of creativity, data-driven insights, and industry expertise, we develop campaigns that resonate</div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                    
-
-                    <div class="cv4">
-                        <div class="cv">
-                            <div class="doc">
-                                <div class="iccc4"><img src="assets/chat_apps_script.svg" alt=""></div>
-                                <div class="dig">
-                                    <div class="solutions">Where Creativity Meets Strategy</div>
-                                    <div class="blend3">With a blend of creativity, data-driven insights, and industry expertise, we develop campaigns that resonate</div>
-                                </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                </div>
-        </div>
-
-        
-        
-
-
-
-            </div>
         
 
 
@@ -300,7 +172,7 @@
                         </div>
 
                         <div class="getplan">
-                            <div class="tr">Get Started Plan</div></div>
+                            <div id="submitButton1" class="tr">Get Started Plan</div></div>
                     </div>
 
                     <div class="card2">
@@ -328,7 +200,7 @@
                         </div>
 
                         <div class="getplan3">
-                            <div class="tr2">Get Started Plan</div></div>
+                            <div id="submitButton2" class="tr2">Get Started Plan</div></div>
                     </div>
 
 
@@ -357,7 +229,7 @@
                         </div>
 
                         <div class="getplan">
-                            <div class="tr">Get Started Plan</div></div>
+                            <div  id="submitButton3" class="tr">Get Started Plan</div></div>
                     </div>
 
                 </div>
@@ -429,7 +301,55 @@
     </div>
 
 
-
+    <script>
+        // Получаем все кнопки с разными тарифами
+        const buttons = document.querySelectorAll('.tr, .tr2');
+    
+        buttons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Запрашиваем имя пользователя
+                const userName = prompt("Введите ваше имя:");
+    
+                if (userName && userName.trim() !== "") {
+                    // Определяем тариф в зависимости от родительского элемента кнопки
+                    let tariff = "Basic"; // Значение по умолчанию
+    
+                    if (button.closest('.card2')) {
+                        tariff = "Standard";
+                    } else if (button.closest('.card3')) {
+                        tariff = "Premium";
+                    }
+    
+                    // Отправляем POST-запрос на сервер
+                    fetch('http://localhost:5000/submit_application', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            user_name: userName,
+                            tariff: tariff
+                        })
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        alert(data.message);
+                    })
+                    .catch(error => {
+                        console.error('Ошибка:', error);
+                        alert('Что-то пошло не так. Попробуйте снова!');
+                    });
+                } else {
+                    alert("Имя не введено!");
+                }
+            });
+        });
+    </script>
+    
+    
+    
+    
+    
     
 </body>
 </html>
